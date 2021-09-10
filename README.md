@@ -1,6 +1,7 @@
 # Available
 
 * git
+* visual studio code
 * rust
 
 <br>
