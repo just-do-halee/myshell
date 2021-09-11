@@ -1,4 +1,4 @@
-function ccode() {
+function cdco() {
         cd "$@"
         code .
 }
