@@ -1,12 +1,13 @@
 # Available
 
-* git
-* visual studio code
-* rust
+- git
+- visual studio code
+- node
+- rust
 
 <br>
 <br>
 
 # Contribution
 
-feel free to contribute.
+feel free to make issues.
