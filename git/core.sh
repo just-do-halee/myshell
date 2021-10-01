@@ -1,3 +1,15 @@
+function gr() {
+        git remote add "$@"
+}
+
+function gp() {
+        git pull "$@"
+}
+
+function gf() {
+        git fetch "$@"
+}
+
 function g3() {
         git add .
         git commit -m "$@"

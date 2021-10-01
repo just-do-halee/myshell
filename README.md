@@ -1,9 +1,9 @@
 # Available
 
-- git
-- visual studio code
-- node
 - rust
+- node
+- git
+- vscode
 
 <br>
 <br>
