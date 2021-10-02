@@ -3,5 +3,10 @@
     "prefix": "csl",
     "body": ["console.log(`$1`);", "$2"],
     "description": "Log output to console"
+  },
+  "Throw new Error": {
+    "prefix": "thE",
+    "body": ["throw new Error(`$1`);", "$2"],
+    "description": "Throw new Error"
   }
 }
