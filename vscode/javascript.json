@@ -8,5 +8,15 @@
     "prefix": "thE",
     "body": ["throw new Error(`$1`);", "$2"],
     "description": "Throw new Error"
+  },
+  "DOM querySelector": {
+    "prefix": "docq",
+    "body": ["document.querySelector(`$1`);", "$2"],
+    "description": "DOM: document.querySelector"
+  },
+  "DOM getElementById": {
+    "prefix": "doci",
+    "body": ["document.getElementById(`$1`);", "$2"],
+    "description": "DOM: document.getElementById"
   }
 }
