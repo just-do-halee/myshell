@@ -19,14 +19,19 @@
     "body": ["throw new Error(`$1`);", "$2"],
     "description": "Throw new Error"
   },
-  "DOM querySelector": {
+  "Get DOMElement by querySelector": {
     "prefix": "docq",
-    "body": ["document.querySelector(`$1`);", "$2"],
-    "description": "DOM: document.querySelector"
+    "body": ["const $1 = document.querySelector(`$2`);", "$3"],
+    "description": "Get DOMElement by querySelector"
   },
-  "DOM getElementById": {
+  "Get DOMElements by querySelectorAll": {
+    "prefix": "docqs",
+    "body": ["const $1 = document.querySelectorAll(`$2`);", "$3"],
+    "description": "Get DOMElements by querySelectorAll"
+  },
+  "Get DOMElement by getElementById": {
     "prefix": "doci",
-    "body": ["document.getElementById(`$1`);", "$2"],
-    "description": "DOM: document.getElementById"
+    "body": ["const $1 = document.getElementById(`$2`);", "$3"],
+    "description": "Get DOMElement by getElementById"
   }
 }
