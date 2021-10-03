@@ -1,12 +1,12 @@
 {
   "Set the let variable": {
     "prefix": "lett",
-    "body": ["let $1 = $2;", "$3"],
+    "body": ["let $1=;"],
     "description": "Set the let variable"
   },
   "Set the const variable": {
     "prefix": "cons",
-    "body": ["const $1 = $2;", "$3"],
+    "body": ["const $1=;"],
     "description": "Set the const variable"
   },
   "Print to console": {
