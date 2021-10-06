@@ -1,4 +1,9 @@
 {
+  "Create function": {
+    "prefix": "func",
+    "body": ["function $1(:)"],
+    "description": "Create a function."
+  },
   "Set the let variable": {
     "prefix": "lett",
     "body": ["let $1=;"],
