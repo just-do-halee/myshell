@@ -5,12 +5,12 @@
     "description": "Create a function."
   },
   "Set the let variable": {
-    "prefix": "lett",
+    "prefix": "le",
     "body": ["let $1=;"],
     "description": "Set the let variable"
   },
   "Set the const variable": {
-    "prefix": "cons",
+    "prefix": "con",
     "body": ["const $1=;"],
     "description": "Set the const variable"
   },
