@@ -16,3 +16,14 @@ alias ni="npm install $@"
 alias nsd="npm run start:dev"
 alias nst="npm run start:debug"
 alias nsp="npm run start:prod"
+
+function newjs() {
+        mkdir "$1"
+        cd "$1"
+        npm init -y
+        touch index.js
+        if [[ $2 ]]
+        then
+                npm install "${@:2}"
+        fi
+}
