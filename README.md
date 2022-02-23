@@ -4,6 +4,7 @@
 - node
 - git
 - vscode
+- script
 
 <br>
 <br>

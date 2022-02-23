@@ -11,10 +11,12 @@ source $p/git/core.sh
 source $p/node/core.sh
 source $p/rust/core.sh
 source $p/vscode/core.sh
+source $p/script/core.sh
     " >> $1
     export MYSHELL=$p
     source $p/git/core.sh
     source $p/node/core.sh
     source $p/rust/core.sh
     source $p/vscode/core.sh
+    source $p/script/core.sh
 fi
