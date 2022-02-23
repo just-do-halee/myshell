@@ -14,6 +14,18 @@ function gr() {
         git remote add "$@"
 }
 
+function gb() {
+        git branch "$@"
+}
+
+function gc() {
+        git checkout "$@"
+}
+
+function gcb() {
+        git checkout -b "$@"
+}
+
 function gp() {
         git pull "$@"
 }
