@@ -10,6 +10,10 @@ function gfrom() {
         ls
 }
 
+function glog() {
+        git log
+}
+
 function gr() {
         git remote add "$@"
 }
@@ -18,7 +22,7 @@ function gb() {
         git branch "$@"
 }
 
-function gc() {
+function gco() {
         git checkout "$@"
 }
 
