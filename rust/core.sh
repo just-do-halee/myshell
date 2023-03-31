@@ -6,4 +6,4 @@ function tt() {
         cargo test -p "$@"
 }
 
-alias cbd="cargo clean; cargo test; cargo build; cargo build --release; cargo doc --open "$@""
+alias cbd="cargo clean; cargo test; cargo build; cargo build --release; cargo doc --no-deps --open "$@""

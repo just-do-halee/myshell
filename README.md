@@ -2,6 +2,7 @@
 
 - rust
 - node
+- python
 - git
 - vscode
 - script
